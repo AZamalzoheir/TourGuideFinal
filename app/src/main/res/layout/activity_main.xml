@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.amalzoheir.tourguide.MainActivity">
+
+    <TextView
+        android:id="@+id/attraction"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:background="@color/attraction"
+        android:text="@string/attraction"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/resturant"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:background="@color/resturant"
+        android:text="@string/Restaurants"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/publicplaces"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:background="@color/public_places"
+        android:text="@string/PublicPlace"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/events"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:background="@color/events"
+        android:text="@string/Events"
+        android:textSize="18sp" />
+
+</android.widget.LinearLayout>
