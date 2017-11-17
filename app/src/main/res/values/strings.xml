@@ -1,7 +1,15 @@
 <resources>
     <string name="app_name">TourGuide</string>
     <string name="attraction">Attraction</string>
+    <string name="asd">asd</string>>
     <string name="Restaurants">Restaurants</string>
     <string name="PublicPlace">Public place</string>
-    <string name="Events">Events</string>
+    <string name="cairo">Cairo</string>
+    <string name="giza">Giza Governorate</string>
+    <string name="redSea">Red Sea and Sinai</string>
+    <string name="Luxor">Luxor</string>
+    <string name="descriptionCairo">City of a Thousand Minarets</string>
+    <string name="descriptionLuxor">"Historic sites,Museums,Shopping</string>
+    <string name="descriptionGiza">Pyramids</string>
+    <string name="descriptionredsea">natural and archaeological landmarks</string>
 </resources>
