@@ -16,16 +16,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Atractions"
+        <activity
+            android:name=".Atractions"
             android:label="Attraction"
             android:parentActivityName=".MainActivity"></activity>
-        <activity android:name=".Restrant"
+        <activity
+            android:name=".Restrant"
             android:label="Restaurants"
             android:parentActivityName=".MainActivity"></activity>
-        <activity android:name=".PublicPlaces"
+        <activity
+            android:name=".PublicPlaces"
             android:label="Public Places"
             android:parentActivityName=".MainActivity"></activity>
-        <activity android:name=".Events"
+        <activity
+            android:name=".Events"
             android:label="Events"
             android:parentActivityName=".MainActivity"></activity>
     </application>

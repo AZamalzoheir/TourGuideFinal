@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,34 +8,34 @@
 
     <TextView
         android:id="@+id/attraction"
+        style="@style/textviewstyle"
         android:layout_width="match_parent"
         android:layout_height="88dp"
         android:background="@color/attraction"
-        android:text="@string/attraction"
-        android:textSize="18sp" />
+        android:text="@string/attraction" />
 
     <TextView
         android:id="@+id/resturant"
+        style="@style/textviewstyle"
         android:layout_width="match_parent"
         android:layout_height="88dp"
         android:background="@color/resturant"
-        android:text="@string/Restaurants"
-        android:textSize="18sp" />
+        android:text="@string/Restaurants" />
 
     <TextView
         android:id="@+id/publicplaces"
+        style="@style/textviewstyle"
         android:layout_width="match_parent"
         android:layout_height="88dp"
         android:background="@color/public_places"
-        android:text="@string/PublicPlace"
-        android:textSize="18sp" />
+        android:text="@string/PublicPlace" />
 
     <TextView
         android:id="@+id/events"
+        style="@style/textviewstyle"
         android:layout_width="match_parent"
         android:layout_height="88dp"
         android:background="@color/events"
-        android:text="@string/Events"
-        android:textSize="18sp" />
+        android:text="@string/Events" />
 
 </android.widget.LinearLayout>
