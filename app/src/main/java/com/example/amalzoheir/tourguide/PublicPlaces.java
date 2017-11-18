@@ -13,11 +13,11 @@ public class PublicPlaces extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.text_list);
         ArrayList<TextGuide> textGuide = new ArrayList<TextGuide>();
-        textGuide.add(new TextGuide("Tiran Iland", "Lodg Hotel | Hadaba | Sharm El Sheikh", R.drawable.tiran));
-        textGuide.add(new TextGuide("Ras Mohamamed National Park", "Sinai | Sharm El Sheikh", R.drawable.rasmouhamed));
-        textGuide.add(new TextGuide("SeaWorld Driving Center ", "Three Corners Sea Beach Resort | Marsa Alam", R.drawable.seaworld));
-        textGuide.add(new TextGuide("Aswan Botanical Garden", "Aswan CitY", R.drawable.aswangarden));
-        textGuide.add(new TextGuide("Desert Safari Hurghada", " Hurghada", R.drawable.safari));
+        textGuide.add(new TextGuide(getString(R.string.Tiran_Iland), getString(R.string.locationTiran_Iland), R.drawable.tiran));
+        textGuide.add(new TextGuide(getString(R.string.rasmohamamed_Park), getString(R.string.locationrasmouhamedpark), R.drawable.rasmouhamed));
+        textGuide.add(new TextGuide(getString(R.string.SeaWorld_Driving), getString(R.string.locationseaworld_driving), R.drawable.seaworld));
+        textGuide.add(new TextGuide(getString(R.string.Aswan_Garden), getString(R.string.locationaswangarden), R.drawable.aswangarden));
+        textGuide.add(new TextGuide(getString(R.string.Desert_Hurghada), getString(R.string.locationdesert_hurghada), R.drawable.safari));
         TextAdapter itemAdapter = new TextAdapter(this, textGuide, R.color.public_places);
         ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(itemAdapter);

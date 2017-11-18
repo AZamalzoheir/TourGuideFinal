@@ -9,7 +9,7 @@
     </style>
 
     <style name="textviewstyle">
-        <item name="android:textSize">20dp</item>
+        <item name="android:textSize">@dimen/font_size</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:padding">10dp</item>
         <item name="android:textStyle">italic</item>

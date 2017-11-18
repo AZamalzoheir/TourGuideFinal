@@ -1,9 +1,10 @@
 <resources>
     <string name="app_name">TourGuide</string>
     <string name="attraction">Attraction</string>
-    <string name="asd">asd</string>>
+    <string name="events">Events</string>
     <string name="Restaurants">Restaurants</string>
     <string name="PublicPlace">Public place</string>
+    /////////attraction
     <string name="cairo">Cairo</string>
     <string name="giza">Giza Governorate</string>
     <string name="redSea">Red Sea and Sinai</string>
@@ -12,4 +13,37 @@
     <string name="descriptionLuxor">"Historic sites,Museums,Shopping</string>
     <string name="descriptionGiza">Pyramids</string>
     <string name="descriptionredsea">natural and archaeological landmarks</string>
+    //////////resturant
+    <string name="naghib">Nagguib Mahfouz Cafe</string>
+    <string name="falafel">Felfela</string>
+    <string name="esplanade">Esplanade Cafe Restaurant</string>
+    <string name="Fishawi">El Fishawi</string>
+    <string name="koshary">Koshary Abou Tarek</string>
+    <string name="descriptionnaghib">5 El Baddistan Lane| Khan el_Khalili</string>
+    <string name="descriptionfalafel">15 Sharia Hoda Shaarawi Street</string>
+    <string name="descriptionesplande">El Kahattab InterContinental Cairo Citystars | omar ibn</string>
+    <string name="descriptionfishawy">Midan Hussien|Cairo</string>
+    <string name="descriptionkoshary">Choppin In | Champollion</string>
+    ///////////public places
+    <string name="Tiran_Iland">Tiran Iland</string>
+    <string name="rasmohamamed_Park">Ras Mohamamed National Park</string>
+    <string name="SeaWorld_Driving">SeaWorld Driving Center</string>
+    <string name="Aswan_Garden">Aswan Botanical Garden</string>
+    <string name="Desert_Hurghada">Desert Safari Hurghada</string>
+    <string name="locationTiran_Iland">Lodg Hotel | Hadaba | Sharm El Sheikh</string>
+    <string name="locationrasmouhamedpark">Sinai | Sharm El Sheikh</string>
+    <string name="locationseaworld_driving">Three Corners Sea Beach Resort | Marsa Alam</string>
+    <string name="locationaswangarden">Aswan City</string>
+    <string name="locationdesert_hurghada">Hurghada</string>
+    //////////events
+    <string name="new_year">New Year</string>
+    <string name="Sham_El_Nessim">Sham El Nessim</string>
+    <string name="Mouhamed_birhtday">Birthday of the Prophet Mouhamed</string>
+    <string name="Revolution_25January">Revolution Day 25 January</string>
+    <string name="Islamic_New_Year">Islamic New Year</string>
+    <string name="descriptionnew_year">Celebrating the new year</string>
+    <string name="descriptionnSham_El_Nessim">The Mondy following Orthodox Easter</string>
+    <string name="descriptionnMouhamed_birhtday">12 Rbi Al AwwalL</string>
+    <string name="descriptionnRevolution_25January">Egyptian Revolution 2011</string>
+    <string name="descriptionnIslamic_New_Year">The first day of the year based on the launar Islamic Calender</string>
 </resources>

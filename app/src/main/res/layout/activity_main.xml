@@ -36,6 +36,6 @@
         android:layout_width="match_parent"
         android:layout_height="88dp"
         android:background="@color/events"
-        android:text="@string/Events" />
+        android:text="@string/events" />
 
 </android.widget.LinearLayout>

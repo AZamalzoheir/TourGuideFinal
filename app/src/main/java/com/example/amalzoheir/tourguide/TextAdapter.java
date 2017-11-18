@@ -45,6 +45,7 @@ public class TextAdapter extends ArrayAdapter<TextGuide> {
         }
         View textConatainer = listItemView.findViewById(R.id.text_container);
         int color= ContextCompat.getColor(getContext(),mColorSourceId);
+        pictureimageview.setBackgroundColor(color);
         textConatainer.setBackgroundColor(color);
         return listItemView;
     }

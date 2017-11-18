@@ -13,11 +13,11 @@ public class Events extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.text_list);
         ArrayList<TextGuide> textGuide = new ArrayList<TextGuide>();
-        textGuide.add(new TextGuide("New Year", "Celebrating the new year"));
-        textGuide.add(new TextGuide("Sham El Nessim", "The Mondy following Orthodox Easter"));
-        textGuide.add(new TextGuide("Birthday of the Prophet Mouhamed", "12 Rbi Al AwwalL"));
-        textGuide.add(new TextGuide("Revolution Day 25 January", "Egyptian Revolution 2011"));
-        textGuide.add(new TextGuide("Islamic New Year", "The first day of the year based on the launar Islamic Calender"));
+        textGuide.add(new TextGuide(getString(R.string.Islamic_New_Year), getString(R.string.descriptionnIslamic_New_Year)));
+        textGuide.add(new TextGuide(getString(R.string.new_year), getString(R.string.descriptionnew_year)));
+        textGuide.add(new TextGuide(getString(R.string.Sham_El_Nessim), getString(R.string.descriptionnSham_El_Nessim)));
+        textGuide.add(new TextGuide(getString(R.string.Mouhamed_birhtday), getString(R.string.descriptionnMouhamed_birhtday)));
+        textGuide.add(new TextGuide(getString(R.string.Revolution_25January), getString(R.string.descriptionnRevolution_25January)));
         TextAdapter itemAdapter = new TextAdapter(this, textGuide, R.color.events);
         ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(itemAdapter);
